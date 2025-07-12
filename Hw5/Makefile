@@ -11,9 +11,6 @@ pcc_client: pcc_client.c
 pcc_server: pcc_server.c
 	$(CC) $(CFLAGS) $< -o $@
 
-test1: test1.c
-	$(CC) $(CFLAGS) $< -o $@
-
 clean:
 	rm -f $(TARGETS)
 
